@@ -1,0 +1,1 @@
+*/10 * * * * /usr/local/bin/python3 /app/extractLinks.py >> /var/log/cron.log 2>&1 && /usr/local/bin/python3 /app/extractContent.py >> /var/log/cron.log 2>&1 && /usr/local/bin/python3 /app/generateSummary.py  >> /var/log/cron.log 2>&1 && /usr/local/bin/python3 /app/pushSummary.py  >> /var/log/cron.log 2>&1
