@@ -25,7 +25,7 @@
 
    ```bash
    git clone https://github.com/Ashimkarrki/bot.git
-   cd news-pasa
+   cd bot
    ```
 2. **Set Up Environment Variables**
    
